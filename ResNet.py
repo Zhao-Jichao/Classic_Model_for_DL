@@ -1,8 +1,11 @@
-'''ResNet-18 Image classfication for cifar-10 with PyTorch 
+# 1) 导入必需的包
+# 2) 搭建网络模型
+# 3) 导入使用的数据集、网络结构、优化器、损失函数等
+# 4) 训练模型
+# 5) 保存模型结构参数
+# 6) 加载模型并测试模型效果
 
-Author 'Sun-qian'.
 
-'''
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
